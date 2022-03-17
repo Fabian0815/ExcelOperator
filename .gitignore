@@ -1,0 +1,10 @@
+/ExcelOperator/bin
+/ExcelOperator/obj
+/Debug
+/x64
+/packages
+/Test/Debug
+.vs
+ExcelOperatorCpp/Debug
+ExcelOperatorCpp/x64
+ExcelOperatorCpp/Release
