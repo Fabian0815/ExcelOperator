@@ -38,7 +38,7 @@ void TestForCSharp()
 		}
 
 		int intResult = 0;
-		bRes = excelOperator->GetCellValue(1, 0, 0, intResult);
+		bRes = excelOperator->GetCellValue(0, 1, 0, intResult);
 		if (bRes) {
 			char message[64];
 			sprintf_s(message, "读取整型数据数据成功：%d", intResult);
@@ -49,7 +49,7 @@ void TestForCSharp()
 		}
 
 		double doubleResult = 0;
-		bRes = excelOperator->GetCellValue(2, 0, 0, doubleResult);
+		bRes = excelOperator->GetCellValue(0, 2, 0, doubleResult);
 		if (bRes) {
 			char message[64];
 			sprintf_s(message, "读取浮点型数据成功：%f", doubleResult);
@@ -60,7 +60,7 @@ void TestForCSharp()
 		}
 
 		bool boolResult = 0;
-		bRes = excelOperator->GetCellValue(3, 0, 0, boolResult);
+		bRes = excelOperator->GetCellValue(0, 3, 0, boolResult);
 		if (bRes) {
 			char message[64];
 			sprintf_s(message, "读取布尔型数据成功：%d", boolResult);
